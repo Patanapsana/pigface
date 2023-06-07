@@ -1,0 +1,125 @@
+.face{
+    height: 250px;
+    width: 250px;
+    background-color: #ffc1cc;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 15%;
+    border: 2px solid black;
+    position: relative;
+    
+}
+.face::before
+{
+    content: '';
+    position: absolute;
+    top:150px;
+    width: 120px;
+    height: 60px;
+    background :red;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border:2px solid black;
+margin-left: 25%;
+
+}
+.eyes{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 250px;
+    margin-top: 20%;
+
+}
+.leye{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 60%;
+    top: 50px;
+}
+
+.reye{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 10%;
+    top: 50px;
+    
+}
+
+   
+.le{
+    position: relative;
+    height:30px;
+    width:30px;
+    border:solid black;
+    border-radius: 50%;
+    background-color: black;
+    top: 17px;
+    margin-left:25%;
+    
+
+}
+.re{
+    position: relative;
+        height:30px;
+        width:30px;
+        border:solid black;
+        border-radius: 50%;
+        background-color: black;
+        margin-left:25%;
+        top: 17px;
+}
+.ear{
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width:260px;
+   margin-left: -3%;
+   margin-top: -15px;
+z-index: -1;
+}
+.lear{
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+border-top-left-radius: 100%;
+border-top-right-radius: 100%;
+background-color: #ffc1cc;
+}
+.rear{
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+border-top-left-radius: 100%;
+border-top-right-radius: 100%;
+background-color: #ffc1cc;
+
+}
+.lh{
+position: absolute;
+height: 30px;
+width: 30px;
+border: 2px solid black;
+background-color: black;
+border-radius: 50%;
+top: 165px;
+margin-left: 30%;
+}
+.rh{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 50%;
+    top: 165px;
+    margin-left: 55%;
+    }
