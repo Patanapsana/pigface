@@ -1,3 +1,3 @@
 # pigface
 livepreview
-https://patanapsana.github.io/pigface/pro4.html
+https://patanapsana.github.io/pigface/proj4.html
